@@ -1,0 +1,14 @@
+body {
+    background-image: url("/src/assets/Utilies/images/hero-slider-1.jpg");
+}
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: black;
+    font-family: sans-serif;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
