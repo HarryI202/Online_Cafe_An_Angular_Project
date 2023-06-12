@@ -1,20 +1,22 @@
 body {
-    background-image: url("../src/assets/Utilies/images/hero-slider-1.jpg");
-  }
+  /* background-image: url("../src/assets/Utilies/images/hero-slider-1.jpg"); */
+  background-image: url("../../../assets/Utilies/images/hero-slider-1.jpg");
+}
 
-  th,
-  td {
-    border: 2px solid black;
-    border-collapse: collapse;
-  }
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
 .blink {
-    animation: blinker 1.5s linear infinite;
-    color: black;
-    font-family: sans-serif;
-  }
+  animation: blinker 1.5s linear infinite;
+  color: black;
+  font-family: sans-serif;
+}
 
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
+}
