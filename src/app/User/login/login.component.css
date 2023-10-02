@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("../../../assets/Utilies/images/hero-slider-1.jpg");
+    background-image: url("/src/assets/Utilies/pages/Newfolder/hero-slider-1.jpg");
 }
 
 .box {
